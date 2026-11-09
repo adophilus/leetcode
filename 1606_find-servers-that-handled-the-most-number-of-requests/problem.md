@@ -19,7 +19,9 @@ Return a list containing the IDs (0-indexed) of the **busiest server(s)**. You m
 ![](https://assets.leetcode.com/uploads/2020/09/08/load-1.png)
 
 > **Input**: k = 3, arrival = [1,2,3,4,5], load = [5,2,3,3,3] 
+> 
 > **Output**: [1] 
+> 
 > **Explanation**: 
 > All of the servers start out available.
 > The first 3 requests are handled by the first 3 servers in order.
@@ -30,7 +32,9 @@ Return a list containing the IDs (0-indexed) of the **busiest server(s)**. You m
 ### Example 2:
 
 > **Input**: k = 3, arrival = [1,2,3,4], load = [1,2,1,2]
+> 
 > **Output**: [0]
+> 
 > **Explanation**: 
 > The first 3 requests are handled by first 3 servers.
 > Request 3 comes in. It is handled by server 0 since the server is available.
@@ -39,7 +43,9 @@ Return a list containing the IDs (0-indexed) of the **busiest server(s)**. You m
 ### Example 3:
 
 > **Input**: k = 3, arrival = [1,2,3], load = [10,12,11]
+> 
 > **Output**: [0,1,2]
+> 
 > **Explanation**: Each server handles a single request, so they are all considered the busiest.
 
 
